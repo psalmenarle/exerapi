@@ -23,7 +23,7 @@ $list = $data['records'];
 		
 			<br><br>
 				
-					<form  class="search" method = "POST" action="index.php" style="margin:auto;max-width:300px">
+					<form  class="search" method = "POST" action="index.php?page=list" style="margin:auto;max-width:300px">
 						 	<input type="text"  placeholder="Search.." name="search">
 						<button type="submit"><i class="fa fa-search"></i></button>
 					</form>
